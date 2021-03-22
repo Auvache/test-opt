@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>index</title>
     <meta charset="UTF-8">
     <meta name="description" content="Private Site for Local Congregation">
     <meta name="keywords" content="Slatecanyon, slatecanyon 11th, provo stake">
@@ -12,116 +13,11 @@
 
 <body>
     <div id="page">
-
-        <h1>Slate Canyon<br />11th Ward</h1>
-
+        <h1>Test index</h1>
         <div class="nav">
-            <!-- drop down menu -->
-            <button class="ham dropbtn" onclick="openMenu()"><img id="hambtn" alt="click to open menu"
-                    src="/img/ham.png" style="width: 32px;" /></button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#announcements">Announcements</a>
-                <a href="#links">Zoom links</a>
-                <a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">churchofjesuschrist.org</a>
-            </div>
-            <ul id="nav" class="nav-link-list">
-                <li><a href="#announcements">Announcements</a></li>
-                <li><a href="#links">Zoom links</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/?lang=eng" target="_blank">churchofjesuschrist.org</a></li>
-            </ul>
+            
         </div>
 
-        <section>
-            <div>
-                <div id="announcements">
-                    <h2>Announcements</h2>
-                    <p><strong>Stake Presidency Interview Schedule</strong><br />
-                        Interviews will take place by appointment only and are being scheduled on Tuesday evenings and
-                        Sundays. Please contact one of the stake executive secretaries to schedule an appointment.
-                    </p>
-                    <p><strong>Tax Forms</strong><br />
-                        Last year's donations are available through your online account. If you need a paper copy,
-                        please let the clerks know.
-                    </p>
-                    <p><strong>Stake Mission Prep Updates</strong><br />
-                        Under the direction of the Stake Presidency, we are trying to move to more in-person but small group meetings.  Therefore, we are changing the structure and scope of our Mission Prep class for March.<br />
-                        The start date is being pushed back to <strong>Sunday March 14th</strong>.<br />
-                        The Mission Prep classes will now be held <strong>IN PERSON at the STAKE CENTER.</strong><br />
-                        We will hold ALL of the Mission Prep classes <strong>ONLY for those youth who turn 16 or older this year.</strong><br />
-                        In order to comply with state rules, we will be breaking into smaller groups.  The facilitators and speakers will rotate through each group so that all of the groups get the same teaching. Masks wearing and Social Distancing will apply.<br /><br />
-                        The youth are invited to submit questions about missionary work and preparation before classes begin at this link: <a href="http://bit.ly/ProvoStakeMissionPrep21">http://bit.ly/ProvoStakeMissionPrep21</a>
-                    </p>
-                    <p><strong>Junior Primary Activity</strong><br />
-                        We are having our first in person activity for junior primary on the 27th from 3-3:30. Junior primary includes Sunbeams,and CTR 4,5 and 6. This is kids who were ages 3-6 as of Jan 1st.
-                        The senior primary kids (ages 7 and up)  are invited to attend in person activity days which occur more frequently. We anticipate doing a junior primary activity once a month. 
-                        Per state order, facemasks are required. We will be splitting into groups of approximately 10 or less. It's not required to attend but we look forward to a fun celebration of Easter and a preparation for general conference. </p>
-                </div>
-                <div id="links">
-                    <h2>Zoom Links for Church Attendance</h2>
-                    <p><a href="https://us02web.zoom.us/j/83882783146?pwd=ZmNaZmxNekN0REEvQnNzeVE0NnExdz09">Click here for Sacrament Meeting</a> (9:00 am)</p>
-                    <p><a href="https://ams.zoom.us/j/95621907868?pwd=RzRSZnJ0Z1htTm95ZGg1RXlybXdLdz09">Click here for Adult Sunday School</a> (1st and 3rd Sunday at 10:30 am)</p>
-                    <p><a href="https://us02web.zoom.us/j/85283485359?pwd=b29XS3pNb2NoYUlxU0JpT1drUHFmZz09">Click here for 12-13 year old Sunday School</a> (1st and 3rd Sunday at 10:30 am)</p>
-                    <p><a href="https://us04web.zoom.us/j/71378451399?pwd=a0VKYk44cGRNQ3hpa2Nxa1pPaVRvQT0912-13">Click here for 14-17 year old Sunday School</a> (1st and 3rd Sunday at 10:30 am)</p>
-                    <p><a href="https://byu.zoom.us/j/97453323141">Click here for Relief Society</a> (2nd and 4thSunday at 10:30 am)</p>
-                    <p><a href="https://us02web.zoom.us/j/86145613291?pwd=RG03MnNVOWJtWnZJUTRnWkN4czJXZz09">Click here for Elder's Quorum</a> (2nd and 4th Sunday at 11:30 am)</p>
-                    <p><a href="https://byu.zoom.us/j/95743042695?pwd=N2FHRys0MzRiNWxuUWNGbWtDMllndz09">Click here for Young Womens</a> (2nd and 4th Sunday at 10:30 am)</p>
-                    <p><a href="https://rmuohp.zoom.us/j/9962423155?pwd=OUtOcmhUdU45U1BESnpPYjBmVkZNQT09">Click here for Young Mens</a> (2nd and 4th Sunday at 10:30 am)
-                    </p>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="footer">
-        <div class="footer-content">
-            <p style="line-height: 20px;">Slatecanyon 11th Ward, Provo Utah Stake<br/>
-                The Church of Jesus Christ of Latter Day Saints</p>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        function openMenu() {
-            console.log(1);
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-        window.onclick = function (event) {
-            if (!event.target.matches('#hambtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                }
-            }
-        }
-
-        $(document).ready(function () {
-            // Add smooth scrolling to all links
-            $("a").on('click', function (event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function () {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
 </body>
 
 </html>
